@@ -1,0 +1,12 @@
+Toda entidade deve se autovalidar.
+Qualquer entidade que atribui a responsabilidade de validação ao externo, está 
+passivel de ser criada errôneamente, gerando perdendo a consistência que o DDD exige.
+
+Ex: A criação de instância passando uma string vázia a um dos atributos(nome) obrigatórios, quebra a consistência da entidade,
+seu estado está incorreto.
+
+Uma função de validação deve ser chamada no fim do construtor e funcções que alterem atributos na entidade.
+
+Essas validações garantem que uma regra de negócio esteja sendo corretamente executada.
+Ex: Ativação de usuário exige que tenha endereço, a tentativa de ativa-lo, deve validar se há endereço valido,
+sendo que o endereçõ é necessário para gerar NFe.

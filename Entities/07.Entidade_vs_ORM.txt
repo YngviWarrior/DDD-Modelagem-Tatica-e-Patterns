@@ -1,0 +1,19 @@
+Entidades de negócios são diferentes de entidades ORM.
+
+Cada uma tem um objetivo diferente. São coisas iguais que representam contextos diferentes.
+Pra não confudir, entidades ORM serão chamdos de Models e serão organizadas em pastas voltadas a infraestrutura(comunicação externa).
+
+//------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$----------//
+
+Divisão em pastas de entidade e models.
+
+Complexidade de negócio
+Domain
+    -Entity
+    -   -customer.ts (regra de negócio)
+
+Complexidade (técnica)acidental
+Domain
+    -Infra (mundo externo)
+        -Entity / Models
+        -   -customer.ts (get, set)

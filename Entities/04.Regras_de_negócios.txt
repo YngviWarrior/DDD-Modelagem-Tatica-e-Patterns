@@ -1,0 +1,4 @@
+Setters e getters não representam uma intenção do sistema.
+A modelagem do domínio rico expressa o negócio, e não setters e getters, podendo haver métodos que sintáticamente são como setters, mas semânticamente,
+demonstra uma intenção do sistema.
+DDD faz com que o estádo atual da entidade esteja sempre correta.

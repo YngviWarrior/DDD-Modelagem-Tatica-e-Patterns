@@ -1,0 +1,2 @@
+Geralmente classes de uma aplicação são orientadas a ORM onde os atributos são os campos do DB.
+Classe Anêmica, não possui regras de negôcios, só carrega dados, tendo getters e setters.

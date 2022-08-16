@@ -1,0 +1,2 @@
+    Quando precisamos olhar mais afundo um bounded context, precisamos ser capazes de modelar de forma mais assertiva os,
+principais componentes, comportamentos e individualidades, bem como suas relações.

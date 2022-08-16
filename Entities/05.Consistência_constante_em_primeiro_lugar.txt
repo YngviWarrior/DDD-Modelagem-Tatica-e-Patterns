@@ -1,0 +1,7 @@
+É obrigatório que a instância de uma entidade esteja sempre com os dados preenchidos.
+Somente aquele dados não obrigatório podem estar vazios, nullo ou default. Ex: endereço de um usuário.
+
+A obrigatóriedade de um atributo vem da estratégia do domínio.
+
+Mas todos os atributos obrigatório deverão ser preenchidos, gerando consistência. Ex: Cliente sempre terá seu ID e nome.
+A instanciação de uma entidade com preenchimento de dados pós criação é ERRADO na modelagem de domínio rico.

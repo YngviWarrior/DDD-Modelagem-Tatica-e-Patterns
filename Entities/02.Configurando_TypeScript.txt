@@ -1,0 +1,4 @@
+npm install typescript -g
+npm install tslint -g
+
+Criar o projeto typeScript

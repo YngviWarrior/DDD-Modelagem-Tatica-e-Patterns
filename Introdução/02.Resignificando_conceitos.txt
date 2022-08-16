@@ -1,0 +1,3 @@
+Aprendemos que entidades são como classes que são objetos relacionais do banco de dados e possuem atributos, getters e setters.
+
+Entidades é um elemento tático, que será resignificado alguns conceitos como esse.

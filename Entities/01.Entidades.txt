@@ -1,0 +1,8 @@
+    Uma entidade é algo uníco que é capaz de ser alterado de forma continua durante um longo período de tempo.
+
+    Uma entidade é algo que possuí uma continuidade em seu ciclo de vida e pode ser distinguida independente dos atributos 
+que são importantes para a aplicação do usuário. Pode ser uma pessoa, cidade, carro, um ticket de loteria ou uma transação bancária.
+    
+    Ex: 3 fuscas iguais, possui chassis diferentes. Tornando-os únicos. 
+    ENTIDADE = IDENTIDADE
+

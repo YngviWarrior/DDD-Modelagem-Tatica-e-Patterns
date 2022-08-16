@@ -1,0 +1,18 @@
+Quando vc se preocupa apenas com os atributos de um elemento de um model, classifique como "Value Object".
+Sem se preocupar com o comportamento.
+
+Trate "Value Object" como imutável.
+
+EX:
+
+Address: 
+    (Conjunto de propriedades que forma address)
+    -Street
+    -City
+    -State
+    -ZipCode
+
+Criar expressividade e estabilidade de sistema, criando os proprios tipos que representam as propriedades que fazem sentido ao sistema.
+EX: tipo CPF
+
+Value Objects se: Auto-valida, Não tem ID e é Imutável, vc n muda de endereço, vc troca de endereço.
