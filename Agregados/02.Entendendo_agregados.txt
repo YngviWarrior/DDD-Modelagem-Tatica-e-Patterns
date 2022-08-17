@@ -1,0 +1,12 @@
+Um agregado é um conjunto de objetos associados que tratamos como uma unidade para propósito de mudança de dados.
+Exemplo:
+
+Custumer Aggregate: Custumer(Entidade) <-------> Address(Value Object)
+
+Order Aggregate: Order(Entidade) 1 ---------> * Item(Entidade)
+    //Relação indireta (não está contido no mesmo agregado), faz com que coloquemos o ID dentro da entidade.(Order possui IDCustumer)
+    //Relação direta (contido no mesmo agregado), faz com que uma entidade possua outra entidade.
+
+
+Root Aggregate é o Objeto que origina o Aggregado.
+EX: Custumer gera o agregado Customer Aggregate

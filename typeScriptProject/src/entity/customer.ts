@@ -1,9 +1,9 @@
 // Classe de uma aplicação orientada a ORM onde os atributos são os campos do DB.
 // Classe Anêmica, não possui regras de negôcios, só carrega dados, tendo getters e setters.
 
-import { Address } from "./address";
+import Address from "./address";
 
-class Customer {
+export default class Customer {
 
     _id: string; // únicidade
     _name: string;

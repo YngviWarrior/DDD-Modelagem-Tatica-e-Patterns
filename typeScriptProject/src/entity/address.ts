@@ -1,6 +1,6 @@
 // Criação do tipo.
 // Conjunto de propriedades que representa algo para nosso sistema.
-export class Address {
+export default class Address {
 
     _street: string = "";
     _number: number = 0;

@@ -1,0 +1,4 @@
+Eventualmente uma entidade está totalmente correlacionada com outra, ou um objeto de valor.
+
+Entender as cadeias de entidade e objetos de valor, no planejamento dos contextos e como será a comunicação,
+entre os contextos. Isso é chamado de Agregados.
